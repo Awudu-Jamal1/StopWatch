@@ -7,7 +7,26 @@
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div class="container">
+      <div class="time">
+        <span class="hour"></span>
+        <span class="minute"></span>: <span class="second"></span>.
+        <span class="msecond"></span>
+      </div>
+      <div class="btn">
+        <div class="left">
+          <button class="lap-btn">Lap</button>
+          <button class="reset-btn">Reset</button>
+        </div>
+        <div class="right">
+          <button class="str-btn">Start</button>
+          <button class="stp-btn">Stop</button>
+        </div>
+      </div>
+      <div class="list-container">
+        <ul class="listitem"></ul>
+      </div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
